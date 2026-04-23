@@ -34,5 +34,5 @@ As the sole developer for this project, I engineered the entire pipeline from sc
 2. **Seed Additional Data:** Run `insert_movies.py` and `insert_movies_tags.py` to insert test documents into the collections.
 3. **Run Analytics:** Execute any of the analytics scripts (e.g., `analyze_movies_per_year.py` or `find_popular_tags.py`) in your terminal to view the aggregation results printed directly to the console.
 
-## 🧠 Lessons Learned
+## Lessons Learned
 Developing this pipeline provided deep, hands-on experience with NoSQL database architecture. A major takeaway was learning how to efficiently chain MongoDB aggregation stages (`$match`, `$project`, `$group`, `$sort`) to perform complex data transformations on the database server side, rather than loading massive amounts of raw data into Python memory to process it. It also reinforced the importance of cleaning and formatting data types during the initial ETL load phase.
